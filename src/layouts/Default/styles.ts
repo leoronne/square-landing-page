@@ -4,7 +4,7 @@ export const Container = styled.div`
   width: 100%;
   height: 100%;
 
-  padding: 20px;
+  padding: 40px;
 
   display: flex;
   justify-content: space-between;
@@ -14,7 +14,8 @@ export const Container = styled.div`
   .navigation-links-active {
     color: var(--text-color);
     text-decoration: none;
-    font-size: 16px;
+    font-size: 17px;
+    font-weight: 500;
     transition: var(--transition);
     position: relative;
   }
@@ -52,8 +53,8 @@ export const Container = styled.div`
     transition: var(--transition);
   }
 
-  @media (min-width: 768px) {
-    padding: 55px;
+  @media (min-width: 890px) {
+    padding: 40px 170px;
   }
 `;
 

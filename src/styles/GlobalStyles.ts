@@ -1,14 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    outline: none !important;
-  }
-
   :root {
     --color-primary: #ea3d3d;
     --font-family: 'Roboto', sans-serif;
@@ -19,6 +11,18 @@ export default createGlobalStyle`
 
     --scrol-thumb: #333;
     --scrol-bg: #89777a;
+
+    --menu-hover: #787777;
+    --menu-background: #35373a;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    outline: none !important;
+    transition: all var(--transition);
   }
 
   html, body, #root {

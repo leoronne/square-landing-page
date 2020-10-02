@@ -40,7 +40,7 @@ const Header: React.FC = () => {
 
       <HeaderRight>
         <Link to={about} className={`${currentUrl === about ? 'navigation-links-active' : 'navigation-links'}`}>
-          {t('about')}
+          {`${t('about-1')} ${t('about-2')}`}
         </Link>
         <Link to={contact} className={`${currentUrl === contact ? 'navigation-links-active' : 'navigation-links'}`}>
           {`${t('contact-1')} ${t('contact-2')}`}

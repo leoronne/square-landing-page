@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const Container = styled.div<{ background: 'mono' | 'dual' }>`
   width: 100%;
+  height: 100vh;
   background: ${props => (props.background === 'dual' ? 'linear-gradient(45deg, var(--body-background) 65%, var(--body-background-secondary) 35%)' : 'var(--body-background)')};
-
   padding: 40px;
 
   display: flex;

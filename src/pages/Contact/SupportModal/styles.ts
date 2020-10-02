@@ -1,4 +1,3 @@
-/* eslint-disable import/prefer-default-export */
 import styled from 'styled-components';
 
 export const Container = styled.div`
@@ -20,4 +19,8 @@ export const Container = styled.div`
   @media (min-width: 868px) {
     display: none;
   }
+`;
+
+export const Content = styled.div`
+  padding-bottom: 20px;
 `;

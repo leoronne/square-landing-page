@@ -1,5 +1,6 @@
 {
-  "about": "Sobre nós",
+  "about-1": "Sobre",
+  "about-2": "nós",
   "contact-1": "Entre em",
   "contact-2": "contato",
   "homepage": "Página inicial",
@@ -25,5 +26,7 @@
   "validmessage": "Nós precisamos de uma mensagem válida",
   "requiredmessage": "Mensagem é um campo obrigatório",
   "sendmessage": "Enviar mensagem",
-  "messagesent": "Recebemos sua mensagem e em breve entraremos em contato, obrigado!"
+  "messagesent": "Recebemos sua mensagem e em breve entraremos em contato, obrigado!",
+  "about-text-1": "Criamos e gerenciamos negócios digitais de alto desempenho. Rápido. Colaborativamente. Experimentalmente. Com foco em faturamento.",
+  "about-text-2": "Somos uma empresa de desbloqueio digital que cria mercados, descobre oportunidades e desbloqueia o potencial do seu negócio para o ambiente digital."
 }

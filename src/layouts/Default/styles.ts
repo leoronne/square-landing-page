@@ -2,9 +2,8 @@ import styled from 'styled-components';
 
 export const Container = styled.div<{ background: 'mono' | 'dual' }>`
   width: 100%;
-  height: 100%;
-  background: ${props => (props.background === 'dual' ? 'linear-gradient(90deg, var(--body-background) 55%, var(--body-background-secondary) 45%)' : 'var(--body-background)')};
-
+  height: 100vh;
+  background: ${props => (props.background === 'dual' ? 'linear-gradient(45deg, var(--body-background) 65%, var(--body-background-secondary) 35%)' : 'var(--body-background)')};
   padding: 40px;
 
   display: flex;
@@ -54,15 +53,25 @@ export const Container = styled.div<{ background: 'mono' | 'dual' }>`
     transition: var(--transition);
   }
 
-  @media (min-width: 986px) {
-    padding: 40px 170px;
+  @media (min-width: 890px) {
+    background: ${props => (props.background === 'dual' ? 'linear-gradient(90deg, var(--body-background) 55%, var(--body-background-secondary) 45%)' : 'var(--body-background)')};
+  }
+
+  @media (min-width: 1024px) {
+    padding: 40px 130px;
   }
 `;
 
 export const Main = styled.div`
+  /* header / padding values */
+  height: calc(100vh - 80px - 80px);
   position: relative;
-  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media (min-width: 768px) {
+    /* header / padding values */
+    height: calc(100vh - 115px - 80px);
+  }
 `;

@@ -41,7 +41,7 @@ const DropdownHeader: React.FC = () => {
             <ListItemIcon>
               <InfoIcon />
             </ListItemIcon>
-            <span>{t('about')}</span>
+            <span>{`${t('about-1')} ${t('about-2')}`}</span>
           </MenuItem>
         </Link>
 
@@ -50,7 +50,7 @@ const DropdownHeader: React.FC = () => {
             <ListItemIcon>
               <MessageIcon />
             </ListItemIcon>
-            <span>{t('contact')}</span>
+            <span>{`${t('contact-1')} ${t('contact-2')}`}</span>
           </MenuItem>
         </Link>
 

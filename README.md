@@ -16,6 +16,16 @@
 
 <br>
 
+## Project :star2:
+
+This repo contains a [test](https://github.com/muchmore-digital/frontend-challenge) for the Front-end Developer position at MuchMore Digital.
+
+<br>
+
+Deployed [here](https://square-muchmore.web.app/).
+
+<br>
+
 <p align="center">
   <img src="src\assets\img\project-1.gif"/>
 </p>
@@ -25,18 +35,6 @@
 <p align="center">
   <img src="src\assets\img\project-2.gif"/>
 </p>
-
-##
-
-<br>
-
-## Project :star2:
-
-This repo contains a [test](https://github.com/muchmore-digital/frontend-challenge) for the Front-end Developer position at MuchMore Digital.
-
-<br>
-
-Deployed [here](https://square-muchmore.web.app/).
 
 <br>
 

@@ -1,5 +1,6 @@
 {
-  "about": "About us",
+  "about-1": "About",
+  "about-2": "us",
   "contact-1": "Contact",
   "contact-2": "us",
   "homepage": "Homepage",
@@ -25,5 +26,7 @@
   "validmessage": "We need a valid message",
   "requiredmessage": "Message is a required field",
   "sendmessage": "Send message",
-  "messagesent": "We received your message, thank you! We will contact you soon"
+  "messagesent": "We received your message, thank you! We will contact you soon",
+  "about-text-1": "We create and manage high performance digital businesses. Fast. Lean. Collaboratively. Experimentally. With focus on billing.",
+  "about-text-2": "We are a digital unlocker company that creates markets, discovers opportunities and unlocks the potential of your business for the digital environment."
 }

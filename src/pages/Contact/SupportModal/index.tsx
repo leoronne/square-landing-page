@@ -8,7 +8,7 @@ import { SupportForm } from '../../../components';
 
 import { ButtonOutlined, DialogTitle } from '../../../styles/MaterialUI';
 
-import { Container } from './styles';
+import { Container, Content } from './styles';
 
 const SupportModal: React.FC = () => {
   const { t } = useTranslation();
@@ -37,7 +37,9 @@ const SupportModal: React.FC = () => {
           </IconButton>
         </DialogTitle>
         <DialogContent>
-          <SupportForm />
+          <Content>
+            <SupportForm />
+          </Content>
         </DialogContent>
       </Dialog>
     </Container>

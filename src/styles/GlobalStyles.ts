@@ -68,4 +68,16 @@ export default createGlobalStyle`
     filter: brightness(1.2);
     outline: none;
   }
+
+  .CookieConsent{
+    border-radius: 5px;
+    bottom: 25px !important;
+    width: 80% !important;
+    left: 10% !important;
+  }
+
+  .cookie-subtitle {
+    font-size: 10px;
+    line-height: 14px;
+  }
 `;

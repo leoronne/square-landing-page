@@ -1,5 +1,6 @@
-import React, { createContext, useState, useEffect, useContext } from 'react';
+import React, { createContext, useState, useEffect, useContext, useCallback } from 'react';
 import i18n from 'i18next';
+import { Cookies } from 'react-cookie-consent';
 
 interface LanguageContextProps {
   changeLanguage(lgn: string): void;
@@ -11,16 +12,22 @@ const LanguageContext = createContext<LanguageContextProps>({} as LanguageContex
 const LanguageProvider: React.FC = ({ children }) => {
   const [language, setLanguage] = useState('en');
 
-  function changeLanguage(lgn: string) {
+  const changeLanguage = useCallback((lgn: string) => {
     i18n.changeLanguage(lgn);
-    localStorage.setItem('@Square:language', lgn);
+    Cookies.set('@Square:language', lgn);
     setLanguage(lgn);
-  }
+  }, []);
 
   useEffect(() => {
-    const lgnstrg = localStorage.getItem('@Square:language');
-    changeLanguage(lgnstrg || 'en');
-  }, []);
+    const wantUseCookie = Cookies.get('@Square:cookies');
+
+    let lgnstrg = 'en';
+
+    if (wantUseCookie === 'true') {
+      lgnstrg = Cookies.get('@Square:language');
+    }
+    changeLanguage(lgnstrg);
+  }, [changeLanguage]);
 
   return <LanguageContext.Provider value={{ language, changeLanguage }}>{children}</LanguageContext.Provider>;
 };

@@ -1,9 +1,10 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
+import { Cookies } from 'react-cookie-consent';
 
 import Backend from 'i18next-xhr-backend';
 
-const lgnstrg = localStorage.getItem('@Square:language');
+const lgnstrg = Cookies.get('@Square:language');
 
 i18n
   .use(Backend)

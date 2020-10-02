@@ -1,8 +1,9 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
+export const Container = styled.div<{ background: 'mono' | 'dual' }>`
   width: 100%;
   height: 100%;
+  background: ${props => (props.background === 'dual' ? 'linear-gradient(90deg, var(--body-background) 55%, var(--body-background-secondary) 45%)' : 'var(--body-background)')};
 
   padding: 40px;
 
@@ -53,7 +54,7 @@ export const Container = styled.div`
     transition: var(--transition);
   }
 
-  @media (min-width: 890px) {
+  @media (min-width: 986px) {
     padding: 40px 170px;
   }
 `;

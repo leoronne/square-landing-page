@@ -1,18 +1,21 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  height: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
+  height: 100%;
 `;
 
 export const Header = styled.div`
   position: relative;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+
   .square-frame {
     display: none;
-    top: -46%;
     right: -6.3%;
     position: absolute;
     max-width: 200px;
@@ -25,8 +28,6 @@ export const Header = styled.div`
     text-transform: uppercase;
     text-align: center;
     color: var(--text-color);
-    background: var(--body-background);
-    z-index: 3;
     strong {
       font-size: 36px;
       font-weight: 700;
@@ -34,14 +35,15 @@ export const Header = styled.div`
   }
 
   @media (min-width: 551px) {
+    min-height: 250px;
     .square-frame {
       display: flex;
-      top: -93.5%;
       max-width: 250px;
     }
   }
 
   @media (min-width: 730px) {
+    min-height: 350px;
     .square-frame {
       max-width: 350px;
     }
@@ -61,6 +63,7 @@ export const SquareContainer = styled.div`
   justify-content: space-evenly;
   width: 100%;
   color: var(--text-color);
+  margin-top: 10px;
 
   .square {
     display: flex;

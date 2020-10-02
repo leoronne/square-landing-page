@@ -18,3 +18,7 @@ export const useStyles = makeStyles({
 
 export { default as Select } from './Select';
 export { default as MenuContainer } from './MenuContainer';
+export { default as TextField } from './TextField';
+export { default as ButtonOutlined } from './ButtonOutlined';
+export { default as DialogTitle } from './DialogTitle';
+export { default as DialogContentText } from './DialogContentText';

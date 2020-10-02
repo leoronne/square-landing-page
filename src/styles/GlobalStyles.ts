@@ -3,8 +3,9 @@ import { createGlobalStyle } from 'styled-components';
 export default createGlobalStyle`
   :root {
     --color-primary: #ea3d3d;
+    --color-primary-lighter: #dd5252;
     --font-family: 'Roboto', sans-serif;
-    --transition: 0.6s ease !important;
+    --transition: 0.6s ease-in-out !important;
     --body-background: var(--color-primary);
     --body-background-secondary: #35373a;
 
@@ -13,8 +14,13 @@ export default createGlobalStyle`
     --scrol-thumb: #333;
     --scrol-bg: #89777a;
 
+    --placeholder-color: #a7a8a9;
+
+    --disabled: #9e9e9e;
+
     --menu-hover: #787777;
     --menu-background: #35373a;
+    --box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.16);
   }
 
   * {
@@ -28,8 +34,9 @@ export default createGlobalStyle`
 
   html, body, #root {
     scroll-behavior: smooth;
-    height: 100vh;
+    /* height: 100vh; */
     font-family: var(--font-family);
+    background: var(--body-background);
   }
 
   ::-webkit-scrollbar {
@@ -37,7 +44,7 @@ export default createGlobalStyle`
   }
 
   ::-webkit-scrollbar-track {
-    background-color: var(--scrol-thumb);
+    background-color: transparent;
   }
 
   ::-webkit-scrollbar-thumb {

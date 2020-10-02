@@ -8,10 +8,10 @@ import Routes from './routes';
 const App: React.FC = () => {
   return (
     <>
-      <BrowserRouter>
-        <GlobalStyles />
-        <Routes />
-      </BrowserRouter>
+        <BrowserRouter>
+          <GlobalStyles />
+          <Routes />
+        </BrowserRouter>
     </>
   );
 };

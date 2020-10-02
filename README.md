@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="src\assets\img\transparentBanner.png" width="70%"/>
+  <img src="src\assets\img\transparentBanner.png" />
 </p>
 
 <br>

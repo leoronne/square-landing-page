@@ -4,9 +4,9 @@ import { Header } from '../../components';
 
 import { Container, Main } from './styles';
 
-const Default: React.FC = ({ children }) => {
+const Default: React.FC<{ bg: 'mono' | 'dual' }> = ({ children, bg }) => {
   return (
-    <Container>
+    <Container background={bg}>
       <Header />
       <Main>{children}</Main>
     </Container>

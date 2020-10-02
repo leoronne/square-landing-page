@@ -23,5 +23,6 @@ module.exports = {
     'import/extensions': 0,
     'import/no-unresolved': 0,
     camelcase: 0,
+    'prettier/prettier': 0,
   },
 };

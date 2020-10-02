@@ -6,15 +6,16 @@ import DefaultLayout from '../layouts/Default';
 
 interface RouteWrapperProps extends ReactDOMRouteProps {
   component: React.ComponentType;
+  bg: 'mono' | 'dual';
 }
 
-const Route: React.FC<RouteWrapperProps> = ({ component: Component, ...rest }) => {
+const Route: React.FC<RouteWrapperProps> = ({ component: Component, bg, ...rest }) => {
   return (
     <ReactDOMRoute
       {...rest}
       render={({ location }) => {
         return (
-          <DefaultLayout>
+          <DefaultLayout bg={bg}>
             <Component />
           </DefaultLayout>
         );

@@ -6,6 +6,7 @@ export default createGlobalStyle`
     --font-family: 'Roboto', sans-serif;
     --transition: 0.6s ease !important;
     --body-background: var(--color-primary);
+    --body-background-secondary: #35373a;
 
     --text-color: #ffe5e5;
 
@@ -28,7 +29,6 @@ export default createGlobalStyle`
   html, body, #root {
     scroll-behavior: smooth;
     height: 100vh;
-    background-color: var(--body-background);
     font-family: var(--font-family);
   }
 

@@ -48,13 +48,15 @@ Deployed [here](https://square-muchmore.web.app/).
 
 ## Installation :wrench:
 
-You can install the application using `npm install` or `yarn install` on the root dir.
+First you need to clone the project using `git clone https://github.com/leoronne/frontend-test-muchmore-digital.git`.
+
+Then you can install the application using `npm install` or `yarn install` on the root dir of the folder.
 
 <br>
 
 ## Test :heavy_check_mark:
 
-To start the application interface just run `npm start` or `yarn start` on the root dir.
+To start the application interface just run `npm start` or `yarn start` on the root dir of the folder.
 
 <br>
 

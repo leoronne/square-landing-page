@@ -4,7 +4,7 @@ import { Cookies } from 'react-cookie-consent';
 
 import Backend from 'i18next-xhr-backend';
 
-const lgnstrg = Cookies.get('@Square:language');
+const lgnstrg = Cookies.get('@square-landing-page:language');
 
 i18n
   .use(Backend)

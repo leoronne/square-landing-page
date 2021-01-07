@@ -2,38 +2,53 @@
   <img src="src\assets\img\transparentBanner.png" />
 </p>
 
+<br>
+
+<div align="center" style="margin: 20px; text-align: center">
+
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+![GitHub last commit](https://img.shields.io/github/last-commit/leoronne/dropbox-homepage-ui-clone?color=green&style=flat-square)
+![GitHub top language](https://img.shields.io/github/languages/top/leoronne/dropbox-homepage-ui-clone?style=flat-square)
+
+</div>
+
 ##
 
 <p align="center">
   <a href="#project-star2">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#techs-rocket">Techs</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#installation-wrench">Installation</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#test-heavy_check_mark">Test</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#start-on">Start</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#contributing-">Contributing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#license-memo">License</a>
 </p>
 
 ##
 
+<p align="center">
+  <img src="src\assets\img\banner.png" />
+</p>
+
 <br>
 
 ## Project :star2:
 
-This repo contains a [test](https://github.com/muchmore-digital/frontend-challenge) for the Front-end Developer position at MuchMore Digital.
+This application contains a Landing Page for the company named Square, it was a [challenge](https://github.com/muchmore-digital/frontend-challenge) proposed by MuchMore Digital.
 
 <br>
 
-Deployed [here](https://square-muchmore.web.app/).
+Deployed [here](https://square.frontend-challenge.ronne.dev/).
 
 <br>
 
 <p align="center">
-  <img src="src\assets\img\project-1.gif"/>
+  <img src="src\assets\img\square-1.gif"/>
 </p>
 
 <br>
 
 <p align="center">
-  <img src="src\assets\img\project-2.gif"/>
+  <img src="src\assets\img\square-2.gif"/>
 </p>
 
 <br>
@@ -48,15 +63,21 @@ Deployed [here](https://square-muchmore.web.app/).
 
 ## Installation :wrench:
 
-First you need to clone the project using `git clone https://github.com/leoronne/frontend-test-muchmore-digital.git`.
+First you need to clone the project using `git clone https://github.com/leoronne/square-landing-page.git`.
 
 Then you can install the application using `npm install` or `yarn install` on the root dir of the folder.
 
 <br>
 
-## Test :heavy_check_mark:
+## Start :on:
 
-To start the application interface just run `npm start` or `yarn start` on the root dir of the folder.
+To start the application interface just run `npm start` or `yarn start` on the root dir.
+
+<br>
+
+## Contributing 🤔
+
+Please read [CONTRIBUTING](https://github.com/leoronne/square-landing-page/blob/master/CONTRIBUTING.md) for details on code of conduct, and the process for submitting pull requests to the project.
 
 <br>
 
@@ -64,7 +85,7 @@ To start the application interface just run `npm start` or `yarn start` on the r
 
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
-- **[MIT license](https://github.com/leoronne/frontend-test-muchmore-digital/blob/master/LICENSE)**
+- **[MIT license](https://github.com/leoronne/square-landing-page/blob/master/LICENSE)**
 - Copyright 2020 © <a href="https://github.com/leoronne" target="_blank">Leonardo Ronne</a>.
 
 ##

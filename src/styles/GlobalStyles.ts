@@ -21,6 +21,10 @@ export default createGlobalStyle`
     --menu-hover: #787777;
     --menu-background: #35373a;
     --box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.16);
+
+    --border-radius: 8px;
+    --card-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    --consent-text-color: #707070;
   }
 
   * {

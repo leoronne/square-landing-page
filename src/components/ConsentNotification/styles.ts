@@ -48,4 +48,12 @@ export const Container = styled.div`
       }
     }
   }
+
+  @media (max-width: 468px) {
+    .CookieConsent {
+      > div {
+        flex: auto !important;
+      }
+    }
+  }
 `;

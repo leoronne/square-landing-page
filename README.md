@@ -33,7 +33,7 @@
 
 ## Project :star2:
 
-This application contains a Landing Page for the company named Square, it was a [challenge](https://github.com/muchmore-digital/frontend-challenge) proposed by MuchMore Digital.
+This repo contains a Landing Page for the company named Square, it was a [challenge](https://github.com/muchmore-digital/frontend-challenge) proposed by MuchMore Digital.
 
 <br>
 
@@ -85,7 +85,7 @@ Please read [CONTRIBUTING](https://github.com/leoronne/square-landing-page/blob/
 
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
-- **[MIT license](https://github.com/leoronne/square-landing-page/blob/master/LICENSE)**
+- **[MIT license](https://github.com/leoronne/square-landing-page/blob/master/LICENSE)**;
 - Copyright 2020 © <a href="https://github.com/leoronne" target="_blank">Leonardo Ronne</a>.
 
 ##
